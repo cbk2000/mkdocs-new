@@ -1,0 +1,27 @@
+site_name: CBK - Common Body of Knowledge
+site_url: https://cbk.kryptos.id/
+repo_url: https://github.com/cbk2000/mkdocs-new
+repo_name: mkdocs-new
+nav:
+  - Home: index.md
+  - Table of Contents:
+      - cbk/index.md
+      - template/index.md
+      - simple-template/index.md
+        #  - Long Template:
+        #- template.md
+        #- Simple Template:
+        #- simple_template.md
+theme:
+  name: material
+  logo: assets/images/cbk.jpg
+  favicon: assets/images/cbk.jpg
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - scheme: slate
+      primary: brown
+      accent: grey
